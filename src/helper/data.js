@@ -1,9 +1,9 @@
 import css from "../assets/css.png";
-import python from "../assets/python.png";
-import java from "../assets/java.png";
-import cpp from "../assets/cpp.png";
+import git from "../assets/git.png";
+import github from "../assets/github.png";
+import react from "../assets/react.png";
 import typeScript from "../assets/ts.png";
-import php from "../assets/php.png";
+import sass from "../assets/sass.png";
 import javaScript from "../assets/javascript.png";
 import html from "../assets/html.png";
 
@@ -34,14 +34,14 @@ export const languages = [
     options: ["AI", "1980", "Guido van Rossum"],
   },
   {
-    name: "react",
-    img: react,
-    options: ["BackEnd", "1990s", "Sun Microsystems"],
-  },
-  {
     name: "github",
     img: github,
     options: ["Game Dev.", "1980s", "Bjarne Stroustrup"],
+  },
+  {
+    name: "react",
+    img: react,
+    options: ["BackEnd", "1990s", "Sun Microsystems"],
   },
   {
     name: "sass",
