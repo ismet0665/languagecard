@@ -29,23 +29,23 @@ export const languages = [
     options: ["Superset of JavaScript", "2012", "Anders Hejlsberg "],
   },
   {
-    name: "python",
-    img: python,
+    name: "git",
+    img: git,
     options: ["AI", "1980", "Guido van Rossum"],
   },
   {
-    name: "java",
-    img: java,
+    name: "react",
+    img: react,
     options: ["BackEnd", "1990s", "Sun Microsystems"],
   },
   {
-    name: "c++",
-    img: cpp,
+    name: "github",
+    img: github,
     options: ["Game Dev.", "1980s", "Bjarne Stroustrup"],
   },
   {
-    name: "php",
-    img: php,
+    name: "sass",
+    img: sass,
     options: ["BackEnd", "1995", "	Rasmus Lerdorf"],
   },
 ];
