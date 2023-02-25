@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/react.svg";
+import { languages } from "./helper/data";
+import Cards from "./components/Cards";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="text-center p-5">
+        <img src={logo} alt="" />
       </header>
+      <Container className="rounded-4 px-4 pb-4">
+        <h1 className="text-white py-2 text-center">Languages</h1>
+        <Row className="g-3">
+          {languages.map((item, index) => (
+            <Col className="text-center" sm={12} md={6} xl={3} key={index}>
+              <Cards {...item} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </div>
   );
 }
